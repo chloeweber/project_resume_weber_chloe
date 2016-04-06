@@ -8,6 +8,11 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: sweetPea;
+    src: url("fonts/sweetpea.ttf");
+}
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -30,4 +35,10 @@ body {
 
 .site-container {
     max-width: 1000px;
+}
+
+#logo img {
+    width: 80%;
+    height: auto;
+    margin: 5% 10%;
 }
