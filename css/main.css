@@ -26,7 +26,8 @@ html {
     width: 1px;
 }
 
-body {
+body,
+li {
     padding: 0;
     font-size: 1.1em;
     font-family: 'Playfair Display', serif;
@@ -68,6 +69,12 @@ h2 {
 h3 {
     color: #4667a3;
     margin: 0;
+    text-transform: uppercase;
+}
+
+.h3-black {
+    color: black;
+    text-transform: none;
 }
 
 .information h2 {
@@ -77,4 +84,15 @@ h3 {
 
 .information p {
     margin: 0.5% 0 1.75%;
+}
+
+.p-italic {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin: 0;
+    margin-top: 1.75%;
+}
+
+ul {
+    margin-top: 1.75%;
 }
