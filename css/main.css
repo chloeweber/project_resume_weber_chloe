@@ -37,6 +37,7 @@ li {
 
 .site-container {
     max-width: 1000px;
+    margin: auto;
 }
 
 /* Header */
@@ -53,11 +54,11 @@ li {
     margin-bottom: 5%;
 }
 
-.headshot {
+.cycle-slideshow {
     margin-bottom: 5%;
 }
 
-.headshot img {
+.cycle-slideshow img {
     width: 100%;
     height: auto;
 }
