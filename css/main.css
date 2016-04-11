@@ -71,6 +71,10 @@ li {
 }
 
 @media all and (min-width: 600px) {
+    #container {
+        margin-bottom: 3%;
+    }
+
     #container::after {
         content: "";
         clear: both;
@@ -189,6 +193,13 @@ footer {
     margin-bottom: 20%;
 }
 
+@media all and (min-width: 600px) {
+    footer {
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+}
+
 .footer ul {
     padding: 0;
 }
@@ -198,6 +209,13 @@ footer {
     list-style: none;
     display: inline-block;
     width: 50%;
+}
+
+@media all and (min-width: 600px) {
+    .footer li {
+        display: inline-block;
+        width: 25%;
+    }
 }
 
 .footer img {
