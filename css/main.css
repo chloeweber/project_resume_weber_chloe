@@ -142,4 +142,15 @@ footer {
 .footer li {
     text-align: center;
     list-style: none;
+    display: inline-block;
+    width: 50%;
+}
+
+.footer img {
+    height: 50px;
+    width: auto;
+}
+
+.top-list-items {
+    margin-bottom: 5%;
 }
