@@ -35,7 +35,8 @@ li {
     background-color: white;
 }
 
-.site-container {
+.site-container,
+.footer {
     max-width: 1000px;
     margin: auto;
 }
@@ -91,6 +92,13 @@ li {
     height: auto;
 }
 
+@media all and (min-width: 1000px) {
+    .cycle-slideshow img {
+        width: 80%;
+        height: auto;
+    }
+}
+
 section {
     width: 95%;
     margin: 0 2.5%;
@@ -104,6 +112,13 @@ section {
     }
 }
 
+@media all and (min-width: 1000px) {
+    .section-one {
+        width: 49%;
+        margin-right: 0;
+    }
+}
+
 @media all and (min-width: 600px) {
     .section-two {
         width: 46%;
@@ -113,6 +128,13 @@ section {
 
     .education h2 {
         margin-top: 0;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .section-two {
+        width: 49%;
+        margin-left: 0;
     }
 }
 
@@ -131,6 +153,12 @@ h2 {
     margin: 7% 0 1.5%;
 }
 
+@media all and (min-width: 1000px) {
+    h2 {
+        margin: 3% 0 0;
+    }
+}
+
 h3 {
     color: #4667a3;
     margin: 0;
@@ -147,8 +175,20 @@ h3 {
     margin-bottom: 1.5%;
 }
 
+@media all and (min-width: 1000px) {
+    .information h2 {
+        margin-bottom: 0;
+    }
+}
+
 .information p {
     margin: 0.5% 0 1.75%;
+}
+
+@media all and (min-width: 1000px) {
+    .information p {
+        margin-top: 0;
+    }
 }
 
 .p-italic {
@@ -158,12 +198,30 @@ h3 {
     margin-top: 1.75%;
 }
 
+@media all and (min-width: 1000px) {
+    .p-italic {
+        margin-top: 0.75%;
+    }
+}
+
 ul {
     margin-top: 1.75%;
 }
 
+@media all and (min-width: 1000px) {
+    ul {
+        margin-top: 0.75%;
+    }
+}
+
 .education-p {
     margin-top: 1.75%;
+}
+
+@media all and (min-width: 1000px) {
+    .education-p {
+        margin-top: 0.75%;
+    }
 }
 
 .education-p p {
@@ -178,8 +236,20 @@ ul {
     margin: 0.5% 0 1.75%;
 }
 
+@media all and (min-width: 1000px) {
+    .skills p {
+        margin-top: 0;
+    }
+}
+
 .interests p {
     margin: 0.5% 0 1.75%;
+}
+
+@media all and (min-width: 1000px) {
+    .interests p {
+        margin-top: 0;
+    }
 }
 
 .activities p {
@@ -197,6 +267,12 @@ footer {
     footer {
         margin-top: 0;
         margin-bottom: 5%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    footer {
+        margin-bottom: 3%;
     }
 }
 
