@@ -48,10 +48,34 @@ li {
     margin: 5% 10%;
 }
 
+@media all and (min-width: 600px) {
+    #logo img {
+        width: 40%;
+        height: auto;
+        margin: 2.5% 30%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #logo img {
+        width: 30%;
+        height: auto;
+        margin: 2.5% 35%;
+    }
+}
+
 /* Container */
 
 #container {
     margin-bottom: 5%;
+}
+
+@media all and (min-width: 600px) {
+    #container::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
 }
 
 .cycle-slideshow {
@@ -66,6 +90,28 @@ li {
 section {
     width: 95%;
     margin: 0 2.5%;
+}
+
+@media all and (min-width: 600px) {
+    .section-one {
+        width: 45%;
+        float: right;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .section-two {
+        width: 45%;
+        float: left;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .section-two h2,
+    .section-two h3,
+    .section-two p {
+        text-align: right;
+    }
 }
 
 h2 {
