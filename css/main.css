@@ -94,15 +94,21 @@ section {
 
 @media all and (min-width: 600px) {
     .section-one {
-        width: 45%;
+        width: 46%;
         float: right;
+        margin-left: 0;
     }
 }
 
 @media all and (min-width: 600px) {
     .section-two {
-        width: 45%;
+        width: 46%;
         float: left;
+        margin-right: 0;
+    }
+
+    .education h2 {
+        margin-top: 0;
     }
 }
 
